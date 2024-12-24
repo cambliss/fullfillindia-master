@@ -1,0 +1,137 @@
+{
+  "skills": [
+
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Accounting Services"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "GST Services"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Income Tax Services"
+    },
+    {
+      "id": "5",
+      "src": "./img/feather-pen-1.png",
+      "title": "Payroll Services"
+    },
+    {
+      "id": "6",
+      "src": "./img/feather-pen-1.png",
+      "title": "ROC Services"
+    },
+    {
+      "id": "7",
+      "src": "./img/feather-pen-1.png",
+      "title": "Startup-Services"
+    }
+  ],
+  "GST-Services":[
+   
+    {
+      "id": "7",
+      "src": "./img/gst-registration.png",
+      "title": "GST Registration for Company  (Public & Private)  (Indian & Foreign)",
+      "buttons": ["One-Time", "One Person Company", "PVT LTD Company"]
+    },
+    
+      {
+        "id": "8",
+        "src": "./img/gst-registration.png",
+        "title": "GST Registration for Partnership (Including LLP)",
+        "buttons": ["One-Time", "Partnership Firm"]
+      },
+      {
+        "id": "9",
+        "src": "./img/gst-registration.png",
+        "title": "Goods and Services Tax (GST) Registration for Sole Proprietor",
+        "buttons": ["One-Time"]
+      },
+      {
+        "id": "10",
+        "src": "./img/gst-bookkeeping.png",
+        "title": "GST & Bookkeeping",
+        "buttons": ["Quarterly","LLP","One Person Company", "PVT LTD Company"]
+      },
+      {
+        "id": "11",
+        "src": "./img/gst-bookkeeping.png",
+        "title": "GST & Bookkeeping - Private Limited Company",
+        "buttons": ["Yearly", "PVT LTD Company"]
+      },
+      {
+      "id": "12",
+      
+        "src": "./img/gst-bookkeeping.png",
+        "title": "GST and Bookkeeping (Quarterly)",
+        "buttons": ["Quarterly", "Indiviual"]
+      },
+      {
+        "id": "13",
+        "src": "./img/gst-bookkeeping.png",
+        "title": "GST and Bookkeeping (Monthly)",
+        "buttons": ["Monthly", "Indiviual"]
+      },
+      {
+        "id": "10",
+        "src": "./img/gst-bookkeeping.png",
+        "title": "GST & Bookkeeping",
+        "buttons": ["Monthly","LLP", "One Person Company", "PVT LTD Company"]
+      }
+    ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "App Dashboard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}

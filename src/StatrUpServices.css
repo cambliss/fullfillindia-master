@@ -1,0 +1,143 @@
+/* external.css */
+.myFlexContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+/* styles.css */
+.myFlexContainer11 {
+  width: 16%;
+  margin-top: 50px;
+  
+  /* z-index: -1; */
+}
+
+
+  /* styles.css */
+
+
+
+  /* external.css */
+
+  /* styles.css */
+/* Add this CSS in your global styles or a stylesheet */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* Optional: Set a background color if needed */
+}
+
+/* styles.css */
+.myFlex{
+  position: relative;
+  top: 15%;
+  font-size: 15px;
+  left: 10%;
+
+}
+.myFlex2{
+  position: relative;
+ 
+  top: 20%;
+  font-size: 15px;
+  left: 2%;
+}
+.myFlex ul li input{
+  cursor: pointer;
+}
+.myFlexContainer2 {
+  height: 90vh;
+  
+  position: relative;
+
+}
+
+.myFlexContainer2::before {
+  content: "";
+  position: absolute;
+  top: 10vh; /* Adjust this value to set the height where you want to remove the top border */
+  right: 0;
+  bottom: 0;
+  border-right: 1px solid black;
+}
+  /* styles.css */
+  @media screen and (max-width:768px) {
+    .myFlexContainer{
+        flex-direction: column;
+    }
+    .myFlexContainer2,.myFlexContainer2::before {
+      border: none;
+    }
+  }
+  
+  /* external.css */
+.myList {
+    width: 300px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .myList li {
+    margin-bottom: 5px;
+  }
+  
+  .myList input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  @media screen and (max-width:768px) {
+    .myFlexContainer11{
+      width: 100%;
+    }
+    .myFlexContainer2{
+      width: 90%;
+    
+    
+    }
+    
+  }
+ @media screen and (max-width:1979px) and (min-width:1246px) {
+  .myFlexContainer11{
+    width: 18%;
+  }
+ }
+ @media screen and (min-width:375px) and (max-width:425px) {
+  .myFlexContainer11{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+ }
+ @media screen and (min-width:769px) and (max-width:1276px) {
+  .myFlexContainer11{
+    width: 25%;
+  }
+  .myFlex2 iframe{
+    width: 100%;
+  }
+ }
+
+ .myFlex2 iframe{
+  width: 90%;
+}
+.myFlex{
+  width: 100%;
+}
+@media screen and (max-width:320px) {
+.myFlex{
+ 
+  left: 15%;
+}
+.myFlex2{
+  left: 10%;
+}
+
+
+
+}
+@media screen and (min-width:1025px) {
+  #bh{
+    display: none;
+  }
+}

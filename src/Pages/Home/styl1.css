@@ -1,0 +1,104 @@
+.gallery-title
+{
+    font-size: 36px;
+    color: #0199DB ;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #0199DB ;
+    border-radius: 5px;
+    text-align: center;
+    color: #0199DB ;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #0199DB F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #0199DB ;
+
+}
+/* .btn-default:active .filter-button:active
+{
+    background-color: #0199DB ;
+    color: white;
+    border: 1px solid #0199DB ;
+} */
+.btn:active{
+    outline: none;
+}
+.btn-default:active{
+    background-color: #0199DB ;
+    color: white;
+    border: 1px solid #0199DB ;
+    outline: none;
+}
+.btn-default:hover,.btn-default:focus,.btn-default.focus,.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default {
+    background-color: #0199DB ;
+    color: white;
+    border: 1px solid #0199DB ;
+    outline: none;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+    .gallery_container {
+        display: grid;
+        background: white;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .gallery_product {
+        border: 1px solid #0199DB;
+        border-radius: 5px;
+        padding: 15px;
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
+    }
+
+    .gallery_product:last-child {
+        margin-right: 0; 
+    }
+    @media screen and (max-width:619px) {
+      .gallery_container{
+        margin: 10px;
+      }
+     
+        
+    }
+    .filter-button{
+        padding: 10px 20px;
+    }
+    @media screen and (max-width:768px){
+        .filter-button{
+            padding: 7px 14px;
+          }
+    }

@@ -114,7 +114,7 @@ function Navbar() {
               <strong>Contact</strong>
             </a>
           </li>
-          <li style={{ color: "black", fontFamily: "'Open Sans', sans-serif", fontSize: "21px" }}>
+          {/* <li style={{ color: "black", fontFamily: "'Open Sans', sans-serif", fontSize: "21px" }}>
             <button
               type="button"
               className="btn custom-btn1" style={{color:"#3E409A", border:"2px solid #3E409A"}}
@@ -127,7 +127,7 @@ function Navbar() {
             >
               Book Now
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

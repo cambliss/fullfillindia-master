@@ -25,7 +25,7 @@ const AboutUs = () => {
               <div className="inner-column">
                 
                 <div className="sec-title">
-                  <span className="title">About US</span>
+                  <span className="title">About us</span>
                   <h2>
                   Unlocking Full Compliance: Tailored Solutions Crafted for Every Unique Requirement                </h2></div>
                 
@@ -53,7 +53,7 @@ const AboutUs = () => {
                   <a href="#" className="lightbox-image" data-fancybox="images">
                     <img
                       title="Rahul Kumar Yadav"
-                      src="./img/aboutus.png"
+                      src="./img/about.avif"
                       alt="Rahul Kumar Yadav"
                     />
                   </a>

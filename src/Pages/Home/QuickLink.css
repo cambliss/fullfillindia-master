@@ -28,74 +28,88 @@
     background-color: #0056b3; 
   }
    */
-
-   .card {
-    /* background-color: #f8f9fa; */
-    background-color: #3e409a;
-    border-radius: 10px;
-    padding: 20px;
+   .consultation-card {
+    position: relative;
     width: 100%;
-    max-width: 1400px; /* Adjust as needed for an even wider card */
+    max-width: 1400px; /* Same width */
+    height: 300px; /* Consistent height */
+    border-radius: 10px;
+    overflow: hidden;
     margin: 20px auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 200px; /* Adjust the height as needed */
-   }
-  
-   .card-content {
+    background: url('https://img.freepik.com/premium-photo/finance-document-with-infographic-analisys-audit-process_151013-224.jpg?w=1380') 
+      no-repeat center center/cover;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    text-align: left;
-    height: 100%; /* Make the content container take full height */
-   }
-   
-   .text-container {
-     flex-grow: 1;
-     margin-right: 20px; /* Adjust the spacing between text and button */
-   } .custom-btn{
-    /* style={{color:"#3E409A", border:"2px solid #3E409A"}} */
-    color:#3E409A ;
-    border: 2px solid #3E409A ;
-
+    justify-content: center;
   }
-   .quick-btn{
-    color: white;
-    border: 2px solid white; /* Adjust the border width */
-  }
- 
-  h2{
-    color:white;
-  }
- 
-   .book-now-btn {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    margin-top:-15px;
-   }
-   
   
-   
-   /* Responsive Media Query */
-   @media screen and (max-width: 600px) {
-     .card {
-       padding: 10px;
-     }
-     .card-content {
-       flex-direction: column;
-       align-items: flex-start;
-     }
-     .text-container h2{
-      font-size: 22px;
-     }
-     .custom-btn {
-      padding: 7px 15px;
-     }
-   }
-   
-   .quick-btn:hover {
+  /* Overlay for readability */
+  .card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Text Styling */
+  .text-container {
     color: white;
-}
+    margin-bottom: 15px;
+  }
+  
+  .text-container h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Button Styling */
+  .custom-btn {
+    color: #3E409A;
+    border: 2px solid #3E409A;
+    background: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .quick-btn {
+    background-color: #3E409A;
+    color: white;
+    /* border: 2px solid white; */
+  }
+  
+  .quick-btn:hover {
+    background-color: white;
+    color: #3E409A;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    .consultation-card {
+      height: 250px;
+    }
+    .text-container h2 {
+      font-size: 22px;
+    }
+    .custom-btn {
+      padding: 7px 15px;
+    }
+  }
+  

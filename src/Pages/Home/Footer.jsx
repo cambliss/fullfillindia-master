@@ -1,108 +1,121 @@
 import React from 'react';
 
 function Footer() {
-  const style1 = {
-    color: "white",
-    fontWeight: "500",
-    textDecoration: "none",
-    backgroundColor: "transparent",
-  };
-
   return (
-    <>
-      <footer style={{ background: "#79848B" }}>
-        <div className="container pt-5 border-bottom">
-          <div className="row">
-            <div className="col-md-3 col-sm-12 mb-3 text-center">
-              <a href="/">
-                <img src="./img/ff.png" alt="Logo" />
-              </a>
-            </div>
-            <div className="col-md-9 col-sm-12">
-              <div className="col-md-4 col-sm-6 col-6 p-0 mb-3 float-left">
-                <h5 className="mb-4" style={{ color: "white" }}>Quick links</h5>
-                <ul className="list-group">
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2">
-                    <a href="/" style={{ color: "white", textDecoration: "none" }}>Home</a>
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2">
-                    <a href="/Main-Services" style={{ color: "white", textDecoration: "none" }}>Services</a>
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2">
-                    <a href="/contact" style={{ color: "white", textDecoration: "none" }}>Contact us</a>
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2">
-                    <a href="Privacy-Policy" style={{ color: "white", textDecoration: "none" }}>Privacy-policy</a>
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2">
-                    <a href="Terms-and-Conditions" style={{ color: "white", textDecoration: "none" }}>Terms & Conditions</a>
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2">
-                    <a href="Refund-Policy" style={{ color: "white", textDecoration: "none" }}>Refunds-Cancellations</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="col-md-4 col-sm-6 col-6 mb-3 p-0 float-left">
-                <h5 className="mb-4" style={{ color: "white" }}>Connect</h5>
-                <ul className="list-group" style={style1}>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2">
-                    <a href="https://www.linkedin.com/company/fullfill-online" style={{ color: "white", textDecoration: "none" }} target='_blank'>
-                      <i className="fa-brands fa-linkedin"></i>&nbsp;&nbsp; LinkedIn
-                    </a>
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2">
-                    <a href="https://www.instagram.com/fullfillonline/" style={{ color: "white", textDecoration: "none" }} target='_blank'>
-                      <i className="fa-brands fa-instagram"></i>&nbsp;&nbsp;Instagram
-                    </a>
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2">
-                    <a href="https://www.facebook.com/FullFillOnline" target="_blank" rel="noopener noreferrer" style={{ color: "white", textDecoration: "none" }}>
-                      <i className="fa-brands fa-facebook"></i>&nbsp;&nbsp; Facebook
-                    </a>
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2">
-                    <a href="https://www.youtube.com/@FullFillOnlineOfficial" target="_blank" rel="noopener noreferrer" style={{ color: "white", textDecoration: "none" }}>
-                      <i className="fa-brands fa-youtube"></i>&nbsp;&nbsp; YouTube
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="col-md-4 col-sm-6 col-6 mb-3 p-0 float-left">
-                <h5 className="mb-4" style={{ color: "white" }}>Contact</h5>
-                <ul className="list-group" style={style1}>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2" style={{ color: "white", textDecoration: "none" }}>
-                  9-1-193/1, Regimental Bazaar,
-
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2" style={{ color: "white", textDecoration: "none" }}>
-                  Shivaji Nagar ,
-
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2" style={{ color: "white", textDecoration: "none" }}>
-                  Secunderabad – 500003,
-
-                  </li>
-                  <li className="list-group-item bg-transparent border-0 p-0 mb-2" style={{ color: "white", textDecoration: "none" }}>
-                  Telangana. (040) 40-175191
-
-                  </li>
-               
-                </ul>
-              </div>
-            </div>
-            <div className="col-md-12">
-              <div className="py-4 d-flex justify-content-center align-items-center">
-                <a className="mr-4" href="https://camblissstudio.com/" style={{ color: "white", textDecoration: "none" }}>
-                  Designed & Developed by CAMBLISS PRIVATE LIMITED
-                </a>
-              </div>
-            </div>
+    <footer
+      style={{
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        color: "white",
+        backgroundColor:"#0098DB",
+        padding: "50px 0",
+      }}
+    >
+      <div className="container-fluid">
+        <div className="row justify-content-between">
+          {/* Logo Section */}
+          <div className="col-md-3 col-sm-12 text-center mb-4">
+            <a href="/">
+              <img src="./img/ff.png" alt="Logo" style={{ maxWidth: "250px" }} />
+            </a>
           </div>
+
+          {/* Quick Links */}
+          <div className="col-md-3 col-sm-6 mb-4">
+  <h5 className="mb-4 text-white">Quick Links</h5>
+  <ul className="list-unstyled">
+    {[
+      { name: "Home", path: "/" },
+      { name: "Services", path: "/Main-Services" },
+      { name: "Contact us", path: "/contact" },
+      { name: "Privacy-policy", path: "/Privacy-Policy" },
+      { name: "Terms & Conditions", path: "/Terms-and-Conditions" },
+      { name: "Refunds-Cancellations", path: "/Refund-Policy" }
+    ].map((link, index) => (
+      <li key={index} className="mb-2">
+        <i className="fa-solid fa-arrow-right mr-2"></i>
+        <a href={link.path} className="footer-link text-white text-decoration-none">
+          {link.name}
+        </a>
+      </li>
+    ))}
+  </ul>
+</div>
+
+
+          {/* Social Media Links */}
+          <div className="col-md-3 col-sm-6 mb-4">
+            <h5 className="mb-4 text-white">Connect</h5>
+            <ul className="list-unstyled">
+              {[
+                { name: "LinkedIn", url: "https://www.linkedin.com/company/fullfill-online", icon: "fa-linkedin" },
+                { name: "Instagram", url: "https://www.instagram.com/fullfillonline/", icon: "fa-instagram" },
+                { name: "Facebook", url: "https://www.facebook.com/FullFillOnline", icon: "fa-facebook" },
+                { name: "YouTube", url: "https://www.youtube.com/@FullFillOnlineOfficial", icon: "fa-youtube" },
+              ].map((social, index) => (
+                <li key={index} className="mb-2">
+                  <a href={social.url} target="_blank" rel="noopener noreferrer" className="footer-link">
+                    <i className={`fa-brands ${social.icon}`} style={{ marginRight: "10px" }}></i> {social.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div className="col-md-3 col-sm-6 mb-4">
+  <h5 className="mb-4 text-white">Contact</h5>
+
+  <div className="d-flex align-items-start">
+    <i className="fa-solid fa-location-dot mr-2 mt-1"></i>
+    <p className="mb-2">
+      9-1-193/1, Regimental Bazaar,<br />
+      Shivaji Nagar, Secunderabad – 500003,
+    </p>
+  </div>
+
+
+  <div className="d-flex align-items-start">
+    <i className="fa-solid fa-phone mr-2 mt-1"></i>
+    <p className="mb-2">
+      <strong>Phone:</strong> (040) 40-175191
+    </p>
+  </div>
+{/* 
+  <div className="d-flex align-items-start">
+    <i className="fa-solid fa-envelope mr-2 mt-1"></i>
+    <p className="mb-2">
+      <strong>Email:</strong> <a href="mailto:camblissworks@gmail.com" className="text-white">camblissworks@gmail.com</a>
+    </p>
+  </div> */}
+</div>
+
         </div>
-      </footer>
-    </>
+
+        {/* Bottom Section */}
+        <div className="text-center mt-4 pt-3 border-top">
+          <a href="https://camblissstudio.com/" className="footer-link">
+            Designed & Developed by CAMBLISS PRIVATE LIMITED
+          </a>
+        </div>
+      </div>
+
+      {/* Footer CSS */}
+      <style jsx>{`
+        .footer-link {
+          color: white;
+          text-decoration: none;
+          transition: 0.3s ease-in-out;
+        }
+        .footer-link:hover {
+          text-decoration: underline;
+          color: #ffcc00;
+        }
+        p {
+          margin-bottom: 8px;
+        }
+      `}</style>
+    </footer>
   );
 }
 

@@ -149,7 +149,7 @@ const ContactForm = () => {
           if (fieldObj.name === "Last Name") {
             setName(fieldObjValue);
           }
-        } catch (e) {}
+        } catch (e) { }
       }
     });
 
@@ -214,8 +214,7 @@ const ContactForm = () => {
 
   const myHtml = `
   <div class="container-fluid " >
-      
-     <div>
+      <div>
 
           <iframe id='hidden327578000000543024Frame' name='hidden327578000000543024Frame' style='display: none;width: 100%;height: 100vh;' class='iframe-container'></iframe>
           <div class='wf-parent' >
@@ -318,15 +317,26 @@ const ContactForm = () => {
 
                            
 
-                              <iframe id="map"
-                              src='https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d724.8517049225238!2d78.503503!3d17.440523!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI2JzI2LjIiTiA3OMKwMzAnMTMuOCJF!5e1!3m2!1sen!2sin!4v1733550013161!5m2!1sen!2sin'
-                                height="250"
-                                style={{border:"0"}}
-                                allowfullscreen=""
-                                loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"
-                              ></iframe>
 
+    <iframe id="googleMap" 
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3806.400808771557!2d78.50117647516615!3d17.4405200834557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI2JzI1LjkiTiA3OMKwMzAnMTMuNSJF!5e0!3m2!1sen!2sin!4v1741254139907!5m2!1sen!2sin" 
+        width="500" height="700" style="border:0;" 
+        allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <!-- Transparent Overlay to Open Directions -->
+    <a href="https://www.google.com/maps/dir/?api=1&destination=17.440520,78.501176" 
+       target="_blank" 
+       style="
+           position: absolute; 
+           top: 0; 
+           left: 0; 
+           width: 100%; 
+           height: 100%; 
+           background: rgba(0, 0, 0, 0); 
+           cursor: pointer;">
+    </a>
 
 
 

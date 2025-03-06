@@ -26,8 +26,8 @@ const AboutUs = () => {
                 
                 <div className="sec-title">
                   <span className="title">About us</span>
-                  <h2>
-                  Unlocking Full Compliance: Tailored Solutions Crafted for Every Unique Requirement                </h2></div>
+<h2>
+                  Unlocking Full Compliance: Tailored Solutions Crafted for Every Unique Requirement</h2></div>
                 
                 <div className="text">
                 FULLFILL Compliances is Founded in 2014 and  is an India-focused accounting, taxation, payroll processing, Compliance management and business advisory firm, operating in Hyderabad. We also manages an extensive affiliate network, providing service throughout India and reach across the globe.                </div>

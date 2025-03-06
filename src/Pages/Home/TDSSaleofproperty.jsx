@@ -54,7 +54,7 @@ const TDS = () => {
               
               </ol>
               <br /> 
-          
+{/*           
               <button
           type="button"
           className="btn custom-btn"
@@ -66,7 +66,7 @@ const TDS = () => {
           }
         >
           Book Now
-        </button>
+        </button> */}
        <br /> <br />
             </div>
           </div>

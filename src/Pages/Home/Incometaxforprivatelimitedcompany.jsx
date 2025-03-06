@@ -45,7 +45,8 @@ const Incometaxprivate= () => {
           </ol>
 
 
-          <br/>    <button
+          <br/>  
+            {/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -56,7 +57,7 @@ const Incometaxprivate= () => {
           }
         >
           Book Now
-        </button>
+        </button> */}
        
            <br/> <br/> <br/>
           </div>

@@ -80,7 +80,7 @@ const RevisedIncomeTaxReturn = () => {
           
 
             <br/>
-            <button
+            {/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -91,7 +91,7 @@ const RevisedIncomeTaxReturn = () => {
           }
         >
           Book Now
-        </button>
+        </button> */}
        
             <br/><br/>
           </div>

@@ -96,7 +96,7 @@ const IncomeBussinessprofession = () => {
             </ul>
 
             <br/>
-            <button
+            {/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -108,7 +108,7 @@ const IncomeBussinessprofession = () => {
         >
           Book Now
         </button>
-       
+        */}
             <br/><br/><br/><br/><br/><br/>
           </div>
         </div>

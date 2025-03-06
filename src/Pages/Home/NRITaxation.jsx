@@ -117,7 +117,7 @@
 
             
                 <br/>
-                <button
+                {/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -128,7 +128,7 @@
           }
         >
           Book Now
-        </button>
+        </button> */}
        <br/><br/><br/><br/><br/>
             </div>
             </div>

@@ -130,7 +130,7 @@ const AadhaarPANLinkingTable = () => {
                 </tbody>
               </table>
             </div>
-            <button
+            {/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -141,7 +141,7 @@ const AadhaarPANLinkingTable = () => {
           }
         >
           Book Now
-        </button>
+        </button> */}
        
           </div>
         </div>

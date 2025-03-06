@@ -94,7 +94,7 @@ function Footer() {
 
         {/* Bottom Section */}
         <div className="text-center mt-4 pt-3 border-top">
-          <a href="https://camblissstudio.com/" className="footer-link">
+          <a href="https://camblissstudio.com/" className="footer-link" target='_blank'>
             Designed & Developed by CAMBLISS PRIVATE LIMITED
           </a>
         </div>

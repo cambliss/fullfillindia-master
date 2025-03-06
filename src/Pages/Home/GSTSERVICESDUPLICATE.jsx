@@ -242,14 +242,14 @@ GST Registration for Partnership (including LLP)                        </h6>
                     </div>
                   </a>
                 </div>
-                <a
+                {/* <a
         href="https://fullfillindia.zohobookings.in/#/customer/204334000000034094"
         className="btn btn-outline-primary"
         target="_blank"
         rel="noopener noreferrer"
       >
         <strong>Book Now</strong>
-      </a>
+      </a> */}
               </div>
            
             </div>

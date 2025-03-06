@@ -85,7 +85,7 @@ return (
     ))}
 </ul>
             <br />
-            <button
+            {/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -96,7 +96,7 @@ return (
           }
         >
           Book Now
-        </button>
+        </button> */}
        
       
 

@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div>
   
-    <div className="container1" style={{maxWidth:"1400px",margin:"0 auto"}}>
+    <div className="container1" style={{maxWidth:"1300px",margin:"0 auto"}}>
    <div className="row gy-4 align-items-stretch justify-content-between features-item ">
           <div className="col-12 col-md-12 col-lg-5 d-flex align-items-center features-img-bg justify-content-between" data-aos="zoom-out">
             <img src="https://img.freepik.com/premium-photo/man-sits-desk-with-pen-paper-with-words-travel-it_1115474-166871.jpg" classn="img-fluid" alt="" style={{borderRadius:"10px"}}/>
@@ -15,7 +15,7 @@ export default function AboutMe() {
             <h1 style={{ color: "#2c3e50", fontWeight: "700" }}>About us</h1>
             <br />
             <p style={{ textAlign: "justify", color: "#555", lineHeight: "1.8" }}>
-              <strong>FULLFILL Tax Consultancy Services (FFTCS)</strong> was founded in 2014 and is an India-focused firm specializing in 
+              <strong>FULLFILL & FILE TAX AND COMPLIANCE SERVICES PRIVATE LIMITED</strong> was founded in 2014 and is an India-focused firm specializing in 
             accounting, taxation, payroll processing, compliance management, and business advisory services.            Based in Hyderabad, we have a strong presence across India and a global outreach through our extensive network.
             </p>
          

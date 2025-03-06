@@ -66,7 +66,7 @@ const GSTLLP = () => {
 8.Bank account details</p>            <br/>
 <p >
 9. Address proof of principal place of business</p>            <br/>
-<button
+{/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -77,7 +77,7 @@ const GSTLLP = () => {
           }
         >
           Book Now
-        </button>
+        </button> */}
        
             <br/><br/><br/>
           </div>

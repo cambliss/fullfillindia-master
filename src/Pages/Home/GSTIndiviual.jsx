@@ -78,7 +78,7 @@ GST registration number or GSTIN is a unique 15-digit number provided by the tax
         </tbody>
       </table>
     </div><br/>
-    <button
+    {/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -89,7 +89,7 @@ GST registration number or GSTIN is a unique 15-digit number provided by the tax
           }
         >
           Book Now
-        </button>
+        </button> */}
        
     </div>
     </div>

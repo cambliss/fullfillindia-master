@@ -51,7 +51,7 @@ const Itroc= () => {
 
           <br/> <br/>
           
-          <button
+          {/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -62,7 +62,7 @@ const Itroc= () => {
           }
         >
           Book Now
-        </button>
+        </button> */}
        <br/> <br/>
           </div>
         </div>

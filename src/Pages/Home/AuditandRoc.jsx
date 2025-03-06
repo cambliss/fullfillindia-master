@@ -69,7 +69,7 @@ const AuditandRoc = () => {
 </li>
               </ol>
               <br /> <br />
-              <button
+              {/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -80,7 +80,7 @@ const AuditandRoc = () => {
           }
         >
           Book Now
-        </button>
+        </button> */}
        
               <br /> <br /> <br />
             </div>

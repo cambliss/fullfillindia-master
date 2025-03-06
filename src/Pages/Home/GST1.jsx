@@ -56,7 +56,7 @@ const GSTService1 = () => {
             5.Filing for B2B and B2C invoices
             </p>
             <br/>
-            <button
+            {/* <button
           type="button"
           className="btn custom-btn"
           onClick={() =>
@@ -67,7 +67,7 @@ const GSTService1 = () => {
           }
         >
           Book Now
-        </button>
+        </button> */}
        <br/><br/><br/><br/><br/>
           </div>
         </div>

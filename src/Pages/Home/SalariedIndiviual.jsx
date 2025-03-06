@@ -68,7 +68,7 @@ backgroundImage: `url('/img/tax10.jpg')`
 
         
             <br/>
-            <button
+            {/* <button
       type="button"
       className="btn custom-btn"
       onClick={() =>
@@ -79,7 +79,7 @@ backgroundImage: `url('/img/tax10.jpg')`
       }
     >
       Book Now
-    </button>
+    </button> */}
    <br/><br/><br/><br/><br/>
         </div>
         </div>

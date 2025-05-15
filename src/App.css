@@ -172,7 +172,7 @@ h2 {
 
 @media screen and (max-height:768px) {
   .navbar{
-    height: 70px;
+    
   }
 }
 .navbar--items > ul {

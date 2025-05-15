@@ -50,13 +50,25 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`} style={{ zIndex: "100" }}>
-      <div onClick={handleHome}>
-        <img
-          src="./img/fullfill.png"
-          alt="FullFill Compliances"
-          style={{ height: "50px", width: "100%", cursor: "pointer" }}
-        />
-      </div>
+  <div
+  onClick={handleHome}
+  className="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2"
+  style={{ cursor: "pointer" }}
+>
+  <img
+    src="./img/fullfill.png"
+    alt="FullFill Compliances"
+    style={{ height: "50px", width: "auto" }}
+  />
+  <img
+    src="./img/zoho.png"
+    alt="Zoho"
+    style={{ height: "50px", width: "auto" }}
+  />
+</div>
+
+
+
       <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
